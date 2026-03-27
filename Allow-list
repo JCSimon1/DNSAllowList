@@ -1,26 +1,3 @@
-# Meine persönliche Erlaubt-Liste.
-# Domains die bei anderen Filterlisten enthalten sind, welche aber für die Funktionalität einer Webseite benötigt werden.
-# Ich habe zu den meisten Domains ein kleines Statement dazu geschrieben, welshalb sie erlaubt sein sollten.
-# Die Liste wurde mit Pi-Hole und Technitium getestet.
-##################################
-# My personal whitelist.
-# Domains which are included in other filter lists, but which are needed for the functionality of a website.
-# I have written a small statement for most domains, why they should be allowed.
-# The list was tested with Pi-Hole and Technitium.
-#
-#
-# This list is used in my public Pi-Hole! https://hoerli.net/hoerlis-pi-holes-fuers-internet/
-#
-##################################
-
-# Es sind Regex-Einträge vorhanden. Diese müssen von Hand im Pi-Hole hinterlegt werden, da Pi-Hole selbst keine Regex-Einträge per Liste nutzen kann. Regex-Einträge stehen immer pro Kategorie ganz oben.
-# There are regex entries available. These must be stored manually in Pi-Hole, since Pi-Hole itself cannot use regex entries by list. Regex entries are always at the top for each category.
-
-# Own Pi-Hole Server Domains
-/(?:(?:auto(?:discover|config)|meine\-ip|pihole[1-4]|stats|pics|ts3)\.|(?:pihole|ts)\.|www\.)?hoerli\.net/ # My Homepage
-/(?:(?:meeting|cloud|mail|dns)\.web|w(?:eb(?:mail\.web)?|ww\.web))\-mx\.eu/ # My Mailserver
-/(?:(?:t(?:eamspeak|s3|m)|s(?:erver|rv[2-4])|bot)\.|www\.|ts\.)?gamemania\.org/ # My Gameserver
-
 # SMARTPHONE
 epdg\.epc\.mnc\d\d\d\.mcc\d\d\d\.pub\.3gppnetwork\.org # Needed for Voice over Wifi (VoWLAN) on Android
 ims\.mnc\d\d\d\.mcc\d\d\d\.pub\.3gppnetwork\.org # Needed for Voice over Wifi (VoWLAN) on Android
