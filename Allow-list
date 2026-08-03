@@ -23,6 +23,9 @@ static.twitchcdn.net # Twitch CDN Servers
 m.media-amazon.com # Amazon Images Server
 images-eu.ssl-images-amazon.com # Amazon Images Server
 
+# AMD
+amd.com
+
 # APPLE
 amp-api-edge.apps.apple.com # Needed that Apple Devices works
 amp-api-search-edge.apps.apple.com # Needed that Apple Devices works
