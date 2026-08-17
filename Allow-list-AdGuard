@@ -40,6 +40,9 @@
 @@||iadsdk.apple.com^ # Needed that some Apple-Devices works
 @@||sf-api-token-service.itunes.apple.com^ # needed for iTunes Store to work
 
+# ARTE
+@@||arte.tv^
+
 # ARD - DAS ERSTE
 @@||ard.de^
 @@||www.ard.de^
