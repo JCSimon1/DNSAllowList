@@ -413,6 +413,7 @@
 # SAMSUNG
 @@||eu-auth2.samsungosp.com^ # Samsung Updates
 @@||poll.gras.samsungdm.com^ # Update Check
+@@||acr-eu-prd.samsungcloud.tv # App Store
 
 # SIGNAL APP
 @@||signal.org^
